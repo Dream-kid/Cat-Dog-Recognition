@@ -1,7 +1,6 @@
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
-# more info on callbakcs: https://keras.io/callbacks/ model saver is cool too.
 from tensorflow.keras.callbacks import TensorBoard
 import pickle
 import time
